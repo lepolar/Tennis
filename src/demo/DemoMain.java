@@ -946,13 +946,12 @@ public class DemoMain {
 			System.out.println("Le vainqueur est "+set1.getWinner());
 			
 		} catch (TennisException e) {
-			// TODO Auto-generated catch block
+			//Gestion basique d'exception, l'utilisation d'un Logger sera requise pour un projet d'entreprise
 			e.printStackTrace();
 		}
 		
 		
-		
-		//set1.startGame();
+	
 		
 		
 	}
